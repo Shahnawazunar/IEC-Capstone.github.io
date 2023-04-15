@@ -93,8 +93,4 @@ body {
         margin-bottom: 1.5rem ;
     }
 }
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
+
