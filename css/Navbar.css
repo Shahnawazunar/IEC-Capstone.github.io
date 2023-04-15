@@ -94,3 +94,13 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+.head-h1 {
+    color: #fff;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    font-size: calc(1.425rem + 1.7vw);
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+}
