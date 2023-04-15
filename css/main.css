@@ -1395,9 +1395,10 @@ input.form-control {
 }
 
 .footer-nav-list li a {
+  
     font-size: 15px;
     margin: 10px 0;
-    display: block;
+    display:block;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     transition: all .3s ease-in-out;
@@ -1435,10 +1436,11 @@ input.form-control {
 }
 
 .footer-social-list {
-    padding-left: 10rem;
+    padding-left: 2rem;
     list-style: none;
     margin-bottom: 0 !important;
     margin-top: 1rem;
+
 }
 
 .bg-gradient .footer-social-list li a {
@@ -1446,6 +1448,7 @@ input.form-control {
 }
 
 .footer-social-list li a {
+ 
     display: block;
     width: 36px;
     height: 36px;
