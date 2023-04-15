@@ -113,19 +113,3 @@ body {
     }
 }
 
-/* 
-.navbar-toggler{
-    position: absolute !important;
-    border: 0 !important;
-    right: 0;
-    line-height: 1;
-    color: rgba(255, 255, 255, 0.55);
-    padding-top:  0.25rem;
-    padding-bottom:  0.25rem;
-    padding-left: 0.75rem;
-    padding-right: 8rem!important;
-    background-color: rgba(0,0,0,0);
-    border-radius:  0.375rem;
-   padding-left: 10rem;
-
-} */
