@@ -78,12 +78,6 @@ body {
     padding: 60px 0;
 }
 }
-@media (min-width: 768px) {
-    .mb-md-4 {
-        margin-bottom: 1.5rem ;
-    }
-}
-
 @media (max-width: 768px) {
 .head-h1 {
     color: #fff;
@@ -96,13 +90,6 @@ body {
 }
 
 
-@media (min-width:320px) and (max-width: 768px) {
- 
-.footer-social-list {
-    padding-left: 0rem;
-    list-style: none;
-    margin-bottom: 0 !important;
-    margin-top: 0rem;
-   margin: auto;
-}
+.pe-5 {
+    padding-right: 10rem!important;
 }

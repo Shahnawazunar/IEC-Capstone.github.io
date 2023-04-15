@@ -508,21 +508,7 @@ h6 {
     }
 }
 
-@media (min-width: 767px) and (max-width: 992px) {
-    .feature-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media (min-width: 320px) and (max-width: 767px) {
-    .lead {
-        font-size: 1.125rem;
-    }
-
-    .feature-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* >===================================>
          Section cta-subscribe Start     
@@ -670,11 +656,11 @@ h6 {
 }
 
 /* >===================================>
-                       Section cta-subscribe End
-              >===================================> */
+     Section cta-subscribe End
+     >===================================> */
 /* >===================================>
-                    Section footer-section Start
-               >===================================> */
+        Section footer-section Start
+ >===================================> */
 .footer-section {
     margin-top: 6rem;
 }
@@ -934,12 +920,6 @@ input.form-control {
 }
 
 
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
 /* >===================================>
-                    Section footer-section End
-               >===================================> */
+ Section footer-section End
+  >===================================> */

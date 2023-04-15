@@ -23,6 +23,11 @@ body {
     color: #212529;
 
 }
+.fill-controll{
+    padding-left: 0;
+    padding-right: 0;
+
+}
 
 /* >=======================>
      Universal Css Style
@@ -1421,14 +1426,14 @@ input.form-control {
     color: #d4d4d4;
 }
 
+.footer-light .copyright-text p {
+    color: #65676d;
+}
+
 .copyright-text p {
     font-size: 14px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-}
-
-.copyright-text p a {
-    color: #e5e5e5;
 }
 
 .text-start {
@@ -1436,25 +1441,23 @@ input.form-control {
 }
 
 .footer-social-list {
-    padding-left: 2rem;
+    padding-left: 0;
     list-style: none;
     margin-bottom: 0 !important;
-    margin-top: 1rem;
-
+    margin-top: 0;
 }
 
-.bg-gradient .footer-social-list li a {
-    color: #d4d4d4;
+.list-inline-item {
+    display: inline-block;
 }
 
 .footer-social-list li a {
- 
     display: block;
     width: 36px;
     height: 36px;
     line-height: 32px;
     text-align: center;
-    border: 2px solid rgba(255, 255, 255, .12);
+    border: 2px solid rgba(26, 20, 20, 0.12);
     border-radius: 4px;
     transition: all .3s ease-in-out;
 }
@@ -1467,6 +1470,7 @@ input.form-control {
     line-height: 32px;
     text-align: center;
     border: 2px solid rgba(255, 255, 255, .12);
+    box-shadow: 1px 1px -2px #eee;
     border-radius: 4px;
     transition: all .3s ease-in-out;
 
@@ -1481,7 +1485,6 @@ input.form-control {
     line-height: 1;
     text-rendering: auto;
 }
-
 
 /* >===================================>
                     Section footer-section End
