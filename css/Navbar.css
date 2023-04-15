@@ -35,17 +35,19 @@ body {
     height: 100px;
     line-height: 100px;
 }
-.main-header:hover{
+
+.main-header:hover {
     background-color: #fff;
     height: 100px;
     transition: .3s ease;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: #fff;
 }
 
 
-.navbar .logo-black{
+.navbar .logo-black {
     display: none;
 }
 
@@ -61,7 +63,7 @@ body {
     font-size: 1.125rem;
     font-weight: 500;
     color: #737373;
-;
+    ;
     position: relative;
     font-family: "Poppins", sans-serif;
 }
@@ -74,41 +76,43 @@ body {
 
 
 
-@media (min-width: 320px) and (max-width: 991px){
-.ptb-120 {
-    padding: 60px 0;
+@media (min-width: 320px) and (max-width: 991px) {
+    .ptb-120 {
+        padding: 60px 0;
+    }
 }
-}
+
 @media (min-width: 768px) {
     .mb-md-4 {
-        margin-bottom: 1rem ;
+        margin-bottom: 1rem;
     }
-    
-    
+
+
 }
 
 @media (max-width: 768px) {
-.head-h1 {
-    color: #fff;
-    font-weight: 700 !important;
-    line-height: 1.2;
-    font-size: calc(1.425rem + 1.7vw);
-    margin-top: 0;
-    margin-bottom: 0.3rem;
-}
+    .head-h1 {
+        color: #fff;
+        font-weight: 700 !important;
+        line-height: 1.2;
+        font-size: calc(1.425rem + 1.7vw);
+        margin-top: 0;
+        margin-bottom: 0.3rem;
+    }
 }
 
 
 @media (min-width:320px) and (max-width: 768px) {
- 
-.footer-social-list {
-    padding-left: 0rem;
-    list-style: none;
-    margin-bottom: 0 !important;
-    margin-top: 0rem;
-   margin: auto;
+
+    .footer-social-list {
+        padding-left: 0rem;
+        list-style: none;
+        margin-bottom: 0 !important;
+        margin-top: 0rem;
+        margin: auto;
+    }
 }
-}
+
 /* 
 .navbar-toggler{
     position: absolute !important;

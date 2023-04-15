@@ -350,10 +350,11 @@ h4 {
 }
 
 .accordion-item {
-    position: relative ;
-    border-radius: 1rem ;
+    position: relative;
+    border-radius: 1rem;
 
 }
+
 .border {
     position: relative !important;
     border: 2px solid rgba(17, 24, 39, 0.12);
@@ -365,7 +366,7 @@ h4 {
 .accordion-header {
     margin-bottom: 0;
     font-weight: 600;
-    
+
 }
 
 .accordion-button:hover {
@@ -380,7 +381,8 @@ h4 {
     width: 100%;
     font-size: 1rem;
     text-align: left;
-    color: #737373;;
+    color: #737373;
+    ;
     background-color: #ffffff;
     overflow-anchor: none;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.15s ease;

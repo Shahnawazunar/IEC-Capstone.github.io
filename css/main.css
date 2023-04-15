@@ -176,7 +176,8 @@ section {
     padding: 0.85rem 1rem;
     font-size: 1.125rem;
     font-weight: 500;
-    color: #d8d8d8;;
+    color: #d8d8d8;
+    ;
     position: relative;
     font-family: "Poppins", sans-serif;
 }
@@ -625,6 +626,7 @@ blockquote {
 .wrapper {
     position: relative !important;
 }
+
 .wrapper .customer-info {
     position: absolute;
     left: 8%;
@@ -773,7 +775,7 @@ blockquote {
     padding-top: 2rem;
     padding-bottom: 1rem;
     justify-content: center;
-   
+
 
 }
 
@@ -785,6 +787,7 @@ blockquote {
     margin-top: 0;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
+    justify-content: start;
 
 }
 
@@ -901,12 +904,14 @@ blockquote {
     font-size: 1.0625rem;
     color: #807b7b;
 }
+
 @media (max-width:768) {
-.media{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}   
+    .media {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
 }
 
 /* >===================================>
@@ -1069,14 +1074,6 @@ blockquote {
         justify-content: center;
         position: static;
         align-items: center;
-
-    }
-
-    .investication-list-wrap a img {
-        margin-right: 0px;
-        margin-left: 0px;
-
-
     }
 }
 
@@ -1117,21 +1114,19 @@ a {
     transition: all .3s ease;
     border-radius: 1rem;
     text-decoration: none;
-    padding: 3rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
     position: relative;
     border: 2px solid rgba(17, 24, 39, 0.12);
     display: block;
     overflow: hidden;
+
 }
 
 .lane-cart-lft {
-    border-color: rgba(101, 101, 101, .1);
     transition: all .3s ease;
     border-radius: 1rem;
     text-decoration: none;
-    padding: 3rem;
-    margin-bottom: 1.5rem;
+    padding: 2rem;
     position: relative;
     border: 2px solid rgba(17, 24, 39, 0.12);
     display: block;
@@ -1403,10 +1398,10 @@ input.form-control {
 }
 
 .footer-nav-list li a {
-  
+
     font-size: 15px;
     margin: 10px 0;
-    display:block;
+    display: block;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     transition: all .3s ease-in-out;
@@ -1452,7 +1447,7 @@ input.form-control {
 
 .list-inline-item {
     display: inline-block;
-   
+
 }
 
 .footer-social-list li a {
