@@ -625,9 +625,6 @@ blockquote {
 .wrapper {
     position: relative !important;
 }
-
-
-
 .wrapper .customer-info {
     position: absolute;
     left: 8%;

@@ -28,8 +28,8 @@
 
 
     <!-- >===============>
-        icon links
-       >===============> -->
+           icon links
+        >===============> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,6 +38,7 @@
            CSS Links
         >===============> -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/Navbar.css">
 
     <!-- >===============>
            CSS Animated Links
@@ -48,15 +49,62 @@
 
 <body>
     <!-- <div class="container-fluid"> -->
-    <!-- >==========================>
-                          01- Section Header Start
-                      >==========================> -->
-    <section class="header">
+      <!-- >==========================>
+            01- Section Header Start
+         >==========================> -->
+
+ <header class="main-header w-100 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-ligh" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-white.png" alt="logo" class="img-fluid logo-white ps-5">
+                <img src="./img/logo-color.png" alt="logo" class="img-fluid logo-black ps-5">
+            </a>
+            <button class="navbar-toggler navbar-dark pe-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mt-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-set active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-set" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-set" href="index.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-set" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-set" href="index.html">Company</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto  mb-lg-0 pe-5">
+                    <li class="nav-item">
+                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                    </li>
+                    <li class="nav-buton">
+                        <a href="request-demo.html" class="btn btn-primary btn-lg">Get Started</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+    <!-- <section class="header">
         <nav class="navbar navbar-expand-lg" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/logo-white.png" alt="logo" class="img-fluid logo-white-off ps-5">
-                    <!-- <img src="./img/logo-color.png" alt="logo" class="img-fluid logo-black-on ps-5"> -->
+                    <img src="./img/logo-color.png" alt="logo" class="img-fluid logo-black-on ps-5">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -93,17 +141,16 @@
                 </div>
             </div>
         </nav>
+    </section> -->
 
-
-
-    </section>
-    <!-- >=======================>
-                          02- Section Header Start
-                          >=======================> -->
 
     <!-- >=======================>
-                          Section Hero Start
-                        >=======================> -->
+       02- Section Header Start
+      >=======================> -->
+
+    <!-- >=======================>
+          Section Hero Start
+      >=======================> -->
     <section class="hero-section ">
         <div class="container-fluid">
             <div class="row align-items-center">

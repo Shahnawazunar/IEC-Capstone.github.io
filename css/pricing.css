@@ -160,8 +160,8 @@ section {
 }
 
 /* >===================================>
-            Section card-section Start
-        >===================================> */
+  Section card-section Start
+  >===================================> */
 .card-section {
     padding-top: 7rem;
     padding-bottom: 5rem;
@@ -183,7 +183,6 @@ section {
 .media-body {
     font-weight: 600;
     margin-bottom: 0;
-    ;
     font-size: 1.0625rem;
     margin-top: 0;
     font-family: "Poppins", sans-serif;
