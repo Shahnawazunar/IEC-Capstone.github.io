@@ -104,3 +104,15 @@ body {
     margin-bottom: 0.3rem;
 }
 }
+
+
+@media (min-width:320px) and (max-width: 768px) {
+ 
+.footer-social-list {
+    padding-left: 0rem;
+    list-style: none;
+    margin-bottom: 0 !important;
+    margin-top: 0rem;
+   margin: auto;
+}
+}
