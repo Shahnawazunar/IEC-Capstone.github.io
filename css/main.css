@@ -176,8 +176,7 @@ section {
     padding: 0.85rem 1rem;
     font-size: 1.125rem;
     font-weight: 500;
-    color: #d8d8d8;
-    ;
+    color: #d8d8d8;;
     position: relative;
     font-family: "Poppins", sans-serif;
 }
@@ -771,9 +770,10 @@ blockquote {
     width: 100%;
     align-items: center;
     display: flex;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     justify-content: center;
+   
 
 }
 
@@ -900,6 +900,13 @@ blockquote {
     line-height: 1.2;
     font-size: 1.0625rem;
     color: #807b7b;
+}
+@media (max-width:768) {
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}   
 }
 
 /* >===================================>
@@ -1258,11 +1265,11 @@ a {
 }
 
 /* >===================================>
-                       Section cta-subscribe End
-              >===================================> */
+     Section cta-subscribe End
+  >===================================> */
 /* >===================================>
-                    Section footer-section Start
-               >===================================> */
+      Section footer-section Start
+ >===================================> */
 .footer-section {
     margin-top: 6rem;
     padding-left: 0;
@@ -1445,11 +1452,13 @@ input.form-control {
 
 .list-inline-item {
     display: inline-block;
+   
 }
 
 .footer-social-list li a {
     display: block;
     width: 36px;
+    color: #65676d;
     height: 36px;
     line-height: 32px;
     text-align: center;
@@ -1483,5 +1492,5 @@ input.form-control {
 }
 
 /* >===================================>
-                    Section footer-section End
-               >===================================> */
+       Section footer-section End
+  >===================================> */

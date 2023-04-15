@@ -17,13 +17,12 @@
 }
 
 .navbar {
-    position: fixed;
+    position:sticky;
     z-index: 10;
     top: 0;
     width: 100%;
     height: 100px;
     line-height: 100px;
-
 }
 
 .navbar-nav .nav-item {
@@ -41,22 +40,19 @@
 }
 
 .navbar-nav .nav-item a:hover {
-
     color: blue;
     transition: .3s ease;
 }
 
 
 /* >============================>
-   Hero Section Start
+       Hero Section Start
   >============================> */
 .page-header {
     position: relative !important;
     overflow: hidden !important;
     background-color: #111827 !important;
-
 }
-
 .service-hero {
     margin-top: 1rem;
     background: url(/img/Serveces/page-header-bg.svg);
@@ -492,11 +488,11 @@ h6 {
     text-rendering: auto;
 }
 
-@media (min-width: 320px) and (max-width: 645px) {
+/* @media (min-width: 320px) and (max-width: 645px) {
     .swiper-button-prev {
         left: 0;
     }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 991px) {
     .ptb-120 {
@@ -890,7 +886,7 @@ input.form-control {
     text-rendering: auto;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .mb-md-4 {
         margin-bottom: 1.5rem !important;
     }
@@ -921,7 +917,7 @@ input.form-control {
 
 
 
-}
+} */
 
 
 /* >===================================>

@@ -306,13 +306,14 @@ section {
 }
 
 /* >===================================>
-            Section card-section End
-        >===================================> */
+ Section card-section End
+ >===================================> */
 
 
 /* >====================>
-          Faq Section Start
-        >====================> */
+    Faq Section Start
+ >====================> */
+
 .faq-section {
     background-color: #fafafa;
     padding: 60px 0;
@@ -343,43 +344,36 @@ h4 {
 }
 
 
-.accordion {
-    color: #737373;
-    background-color: #fff;
-
-}
-
 .faq-accordion .accordion-item {
     margin-bottom: 15px;
     border-radius: 1rem;
 }
 
 .accordion-item {
+    position: relative ;
+    border-radius: 1rem ;
+
+}
+.border {
     position: relative !important;
     border: 2px solid rgba(17, 24, 39, 0.12);
     border-radius: 1rem !important;
     padding: 0rem !important;
 }
 
+
 .accordion-header {
     margin-bottom: 0;
+    font-weight: 600;
+    
 }
 
 .accordion-button:hover {
     z-index: 2;
 }
 
-.faq-accordion .accordion-item button.accordion-button {
-    border-radius: 1rem;
-}
 
-.faq-accordion .accordion-item button {
-    border: none;
-    padding: 1.5rem;
-    font-weight: 600;
-}
-
-/* .accordion-button {
+.accordion-button {
     position: relative;
     display: flex;
     align-items: center;
@@ -391,7 +385,7 @@ h4 {
     overflow-anchor: none;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.15s ease;
 
-} */
+}
 
 button {
     transform: none;
@@ -411,13 +405,11 @@ button {
     transition: transform 0.2s ease-in-out;
 }
 
-.collapse:not(.show) {
-    display: none;
-}
+
 
 /* >====================>
-            Faq Section End
-         >====================> */
+     Faq Section End
+>====================> */
 
 /* new Section StaRT */
 
