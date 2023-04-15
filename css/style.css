@@ -247,7 +247,11 @@
     transition: all .3s ease-in-out;
     color: #d9d9d9;
 }
-
+@media (min-width: 767px) and (max-width: 992px){
+.feature-grid {
+    grid-template-columns: 1fr 1fr;
+}
+}
 
 /* >============================>
     Testimonial Section Start

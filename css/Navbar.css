@@ -8,7 +8,7 @@
     --bs-primary-rgb: 23, 92, 255;
     --bs-text-opacity: 1;
     --bs-body-color: #737373;
-    /* --bs-body-bg: #ffffff; */
+    --bs-body-bg: #ffffff;
     --bs-border-radius: 0.3125rem;
 }
 
@@ -78,6 +78,12 @@ body {
     padding: 60px 0;
 }
 }
+@media (min-width: 768px) {
+    .mb-md-4 {
+        margin-bottom: 1rem ;
+    }
+}
+
 @media (max-width: 768px) {
 .head-h1 {
     color: #fff;
@@ -90,6 +96,13 @@ body {
 }
 
 
-.pe-5 {
-    padding-right: 10rem!important;
+@media (min-width:320px) and (max-width: 768px) {
+ 
+.footer-social-list {
+    padding-left: 0rem;
+    list-style: none;
+    margin-bottom: 0 !important;
+    margin-top: 0rem;
+   margin: auto;
+}
 }
