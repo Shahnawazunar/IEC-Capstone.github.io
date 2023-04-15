@@ -82,3 +82,27 @@ body {
     transition: .3s ease;
 }
 
+
+@media (min-width: 320px) and (max-width: 991px){
+.ptb-120 {
+    padding: 60px 0;
+}
+}
+@media (min-width: 768px) {
+    .mb-md-4 {
+        margin-bottom: 1.5rem ;
+    }
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+    .col-md-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
