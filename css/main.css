@@ -134,12 +134,12 @@ body {
     color: #fff;
 }
 
-section {
+/* section {
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-}
+} */
 
 
 
@@ -220,6 +220,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  overflow: hidden;
+
 }
 
 .parallax-element {
@@ -234,6 +236,7 @@ section {
     margin-top: 0;
     margin-bottom: 1rem;
     padding-left: 2rem;
+   
 }
 
 .layer {
@@ -252,6 +255,7 @@ section {
     top: 0px;
     transform-style: preserve-3d;
     backface-visibility: hidden;
+   
 }
 
 .player-clip-0 {
