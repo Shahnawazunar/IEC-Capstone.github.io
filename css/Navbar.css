@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Noto+Serif:ital,wght@0,700;1,400&family=Poppins:wght@500;600;700&display=swap');
 
-:root {
+
+
+/* --------------------------------------------------------------------- */
+/* :root {
     --bs-white-rgb: 255, 255, 255;
     --bs-text-opacity: 1;
     --bs-gutter-x: 1.5rem;
@@ -25,9 +28,9 @@ body {
     line-height: 1.5;
     color: #212529;
 
-}
+} */
 
-.navbar {
+/* .navbar {
     position: sticky;
     z-index: 10;
     top: 0;
@@ -70,12 +73,12 @@ body {
 .navbar-nav .nav-item a:hover {
     color: blue;
     transition: .3s ease;
-}
+} */
 
 
 
 
-@media (min-width: 320px) and (max-width: 991px) {
+/* @media (min-width: 320px) and (max-width: 991px) {
     .ptb-120 {
         padding: 60px 0;
     }
@@ -87,18 +90,6 @@ body {
     }
 
 
-}
+} */
 
-
-
-@media (min-width:320px) and (max-width: 768px) {
-
-    .footer-social-list {
-        padding-left: 0rem;
-        list-style: none;
-        margin-bottom: 0 !important;
-        margin-top: 0rem;
-        margin: auto;
-    }
-}
-
+/* -------------------------------------------------------------- */
