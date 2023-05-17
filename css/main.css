@@ -937,6 +937,7 @@ blockquote {
 
 
 .investication-list-wrap a img {
+    border: 1px solid red;
     padding: 10px;
     border-radius: 50%;
     max-width: 100%;
@@ -952,15 +953,15 @@ blockquote {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .investication-list-wrap a {
-    position: relative;
+    position:relative;
     margin-right: 16px;
     margin-left: 16px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
@@ -1028,45 +1029,104 @@ blockquote {
     bottom: 0;
 }
 
-.part-up {
-    position: relative;
-    right: 0px;
-}
-
-.part-down {
-    position: relative;
-    right: 150px;
-}
-
-@media (max-width: 991px) {
-    .part-up {
-        position: inherit;
-        margin: auto;
+@media (max-width:991px){
+    
+    .investication-list-wrap{
+        position: relative;
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        position: static;
         align-items: center;
-        padding: 0;
-        margin: 0%;
-
-    }
-
-    .part-up a {
-        margin-right: 0px;
-        margin-left: 0px;
-
-    }
-
-    .part-down {
-        margin: auto;
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        position: static;
-        align-items: center;
+        align-items: flex-end;
+        position: relative;
+        text-align: center;
+    }
+    .investication-1{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-2{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-3{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-4{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-5{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-6{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-7{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-8{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-9{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-10{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-11{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .investication-12{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
     }
 }
+
 
 /* --------------------------    */
 .lane-cart-row {
